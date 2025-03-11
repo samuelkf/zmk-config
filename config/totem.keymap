@@ -48,7 +48,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Alt-Tab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <34 35>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";

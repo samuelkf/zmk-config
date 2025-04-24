@@ -82,7 +82,7 @@
           &kp EXCL   &kp AT     &kp GB_POUND_SIGN  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR
           &kp EQUAL  &kp MINUS  &kp PLUS           &kp UNDER   &kp FSLH       &kp BSLH   &kp PIPE   &kp COLON  &kp SEMI   &kp SQT
 &kp LBKT  &kp RBKT   &kp LBRC   &kp RBRC           &kp LT      &kp GT         &kp DOT    &kp COMMA  &kp GRAVE  &kp TILDE  &trans    &trans
-                                &trans             &trans      &trans         &trans
+                                &trans             &trans      &trans         &trans     &trans     &trans
             >;
         };
 

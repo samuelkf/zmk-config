@@ -75,8 +75,8 @@
             display-name = "Nav";
             bindings = <
               &kp N1          &kp N2      &kp N3   &kp N4    &kp N5       &kp N6    &kp N7    &kp N8  &kp N9     &kp N0
-              &kp LEFT_SHIFT  &kp PG_DN   &kp END  &kp HOME  &kp PG_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp ENTER
-&kp LEFT_ALT  &kp LEFT_GUI    &kp ESCAPE  &kp TAB  &kp BSPC  &kp DEL      &trans    &trans    &trans  &trans     &trans     &trans
+              &kp LEFT_SHIFT  &kp PG_DN   &kp END  &kp HOME  &kp PG_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&kp LEFT_ALT  &kp LEFT_GUI    &kp ESCAPE  &kp TAB  &kp BSPC  &kp DEL      &trans    &trans    &trans  &trans     &trans  &trans
                                           &trans   &trans    &trans       &trans    &trans    &trans
             >;
         };
@@ -86,7 +86,7 @@
             bindings = <
              &kp GB_EXCL   &kp GB_AT     &kp GB_POUND_SIGN  &kp GB_DOLLAR  &kp GB_PERCENT    &kp GB_CARET  &kp GB_AMPS   &kp GB_ASTRK  &kp GB_LPAR   &kp GB_RPAR
              &kp GB_EQUAL  &kp GB_MINUS  &kp GB_PLUS        &kp GB_UNDER   &kp GB_FSLH       &kp GB_BSLH   &kp GB_PIPE   &kp GB_COLON  &kp GB_SEMI   &kp GB_SQT
-&kp GB_LBKT  &kp GB_RBKT   &kp GB_LBRC   &kp GB_RBRC        &kp GB_LT      &kp GB_GT         &kp GB_DOT    &kp GB_COMMA  &kp GB_GRAVE  &kp GB_TILDE  &trans       &trans
+&kp GB_LBKT  &kp GB_RBKT   &kp GB_LBRC   &kp GB_RBRC        &kp GB_LT      &kp GB_GT         &kp GB_DOT    &kp GB_COMMA  &kp GB_GRAVE  &kp GB_TILDE  &trans       &kp GB_HASH
                                          &trans             &trans         &trans            &trans
             >;
         };

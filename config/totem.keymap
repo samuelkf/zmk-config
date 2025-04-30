@@ -64,46 +64,40 @@
         Base {
             display-name = "Base";
             bindings = <
-                 &kp Q       &kp W       &kp E        &kp R         &kp T         &kp Y        &kp U         &kp I        &kp O        &kp P
-                 &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F   &kp G         &kp H        &hm RSHFT J   &hm LCTRL K  &hm RALT L  &hm RGUI SEMICOLON
-    &kp ESCAPE  &kp Z       &kp X       &kp C        &kp V         &kp B         &kp N        &kp M        &kp COMMA    &kp DOT     &kp SLASH   &kp APOSTROPHE
-                                &kp DELETE  &lt Nav TAB  &kp SPACE     &kp BACKSPACE &lt Sym ENTER &kp MINUS
+            &kp Q       &kp W       &kp E        &kp R        &kp T        &kp Y          &kp U          &kp I        &kp O       &kp P
+            &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G        &kp H          &hm RSHFT J    &hm LCTRL K  &hm RALT L  &hm RGUI SEMICOLON
+&kp ESCAPE  &kp Z       &kp X       &kp C        &kp V        &kp B        &kp N          &kp M          &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
+                                    &kp DELETE   &lt Nav TAB  &kp SPACE    &kp BACKSPACE  &lt Sym ENTER  &kp MINUS
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-                &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
-                &kp LEFT_SHIFT  &kp PRINT_SCREEN  &kp END  &kp HOME  &kp PG_UP  &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp ENTER
-    &kp LEFT_ALT &kp LEFT_GUI &kp ESCAPE &kp TAB &kp BSPC  &kp DEL   &trans     &trans     &trans     &trans     &trans &trans
-                                  &trans &trans   &trans    &trans    &trans    &trans
+              &kp N1          &kp N2      &kp N3   &kp N4    &kp N5       &kp N6    &kp N7    &kp N8  &kp N9     &kp N0
+              &kp LEFT_SHIFT  &kp PG_DN   &kp END  &kp HOME  &kp PG_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp ENTER
+&kp LEFT_ALT  &kp LEFT_GUI    &kp ESCAPE  &kp TAB  &kp BSPC  &kp DEL      &trans    &trans    &trans  &trans     &trans     &trans
+                                          &trans   &trans    &trans       &trans    &trans    &trans
             >;
         };
 
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp GB_EXCL     &kp GB_AT        &kp GB_POUND_SIGN  &kp GB_DOLLAR   &kp GB_PERCENT
-                &kp GB_CARET    &kp GB_AMPS      &kp GB_ASTRK       &kp GB_LPAR     &kp GB_RPAR
-
-                &kp GB_EQUAL    &kp GB_MINUS     &kp GB_PLUS        &kp GB_UNDER    &kp GB_FSLH
-                &kp GB_BSLH     &kp GB_PIPE      &kp GB_COLON       &kp GB_SEMI     &kp GB_SQT
-
-                &kp GB_LBKT     &kp GB_RBKT      &kp GB_LBRC         &kp GB_RBRC     &kp GB_LT
-                &kp GB_GT       &kp GB_DOT       &kp GB_COMMA        &kp GB_GRAVE    &kp GB_TILDE
-
-                                  &trans          &trans            &trans          &trans          &trans          &trans
+             &kp GB_EXCL   &kp GB_AT     &kp GB_POUND_SIGN  &kp GB_DOLLAR  &kp GB_PERCENT    &kp GB_CARET  &kp GB_AMPS   &kp GB_ASTRK  &kp GB_LPAR   &kp GB_RPAR
+             &kp GB_EQUAL  &kp GB_MINUS  &kp GB_PLUS        &kp GB_UNDER   &kp GB_FSLH       &kp GB_BSLH   &kp GB_PIPE   &kp GB_COLON  &kp GB_SEMI   &kp GB_SQT
+&kp GB_LBKT  &kp GB_RBKT   &kp GB_LBRC   &kp GB_RBRC        &kp GB_LT      &kp GB_GT         &kp GB_DOT    &kp GB_COMMA  &kp GB_GRAVE  &kp GB_TILDE  &trans       &trans
+                                         &trans             &trans         &trans            &trans
             >;
         };
 
         Func {
             display-name = "Func";
             bindings = <
-                &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6     &kp F7     &kp F8     &kp F9     &kp F10
-                &kp VOL_DN &kp VOL_UP &kp MUTE   &kp PLAY   &kp NEXT   &kp PREV   &kp BRDOWN &kp BRUP   &trans     &trans
-    &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans &trans
-                            &trans   &trans     &trans     &trans     &trans     &trans
+        &kp F1        &kp F2        &kp F3      &kp F4      &kp F5        &kp F6      &kp F7        &kp F8        &kp F9           &kp F10
+        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp C_PLAY  &kp C_NEXT    &kp C_PREV  &kp C_BRI_DN  &kp C_BRI_UP  &kp PRINTSCREEN  &trans
+&trans  &trans        &trans        &trans      &trans      &trans        &trans      &trans        &trans        &trans           &trans   &trans
+                                    &trans      &trans      &trans        &trans      &trans        &trans
             >;
         };
     };

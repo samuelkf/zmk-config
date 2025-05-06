@@ -84,10 +84,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-             &kp GB_EXCL   &kp GB_AT     &kp GB_POUND_SIGN  &kp GB_DOLLAR  &kp GB_PERCENT    &kp GB_CARET  &kp GB_AMPS   &kp GB_ASTRK  &kp GB_LPAR   &kp GB_RPAR
-             &kp GB_EQUAL  &kp GB_MINUS  &kp GB_PLUS        &kp GB_UNDER   &kp GB_FSLH       &kp GB_BSLH   &kp GB_PIPE   &kp GB_COLON  &kp GB_SEMI   &kp GB_SQT
-&kp GB_LBKT  &kp GB_RBKT   &kp GB_LBRC   &kp GB_RBRC        &kp GB_LT      &kp GB_GT         &kp GB_DOT    &kp GB_COMMA  &kp GB_GRAVE  &kp GB_TILDE  &trans       &kp GB_HASH
-                                         &trans             &trans         &trans            &trans
+             &kp GB_EXCL   &kp GB_DOUBLE_QUOTES  &kp GB_POUND_SIGN  &kp GB_DOLLAR  &kp GB_PERCENT    &kp GB_CARET  &kp GB_AMPS   &kp GB_ASTRK  &kp GB_LPAR   &kp GB_RPAR
+             &kp GB_EQUAL  &kp GB_MINUS          &kp GB_PLUS        &kp GB_UNDER   &kp GB_FSLH       &kp GB_BSLH   &kp GB_PIPE   &kp GB_COLON  &kp GB_SEMI   &kp GB_SQT
+&kp GB_LBKT  &kp GB_RBKT   &kp GB_LBRC           &kp GB_RBRC        &kp GB_LT      &kp GB_GT         &kp GB_DOT    &kp GB_COMMA  &kp GB_GRAVE  &kp GB_TILDE  &trans       &kp GB_HASH
+                                                 &trans             &trans         &trans            &trans
             >;
         };
 

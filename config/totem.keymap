@@ -103,10 +103,10 @@
 
         Sway {
             bindings = <
-        &kp LG(N1)        &kp LG(N2)       &kp LG(N3)        &kp LG(N4)        &kp LG(N5)           &kp LG(N6)         &kp LG(N7)        &kp LG(N8)        &kp LG(N9)        &kp LG(N0)
-        &kp LS(LG(EXCL))  &kp LS(LG(DQT))  &kp LS(LG(DLLR))  &kp LS(LG(DLLR))  &kp LS(LG(PRCNT))    &kp LS(LG(CARET))  &kp LS(LG(AMPS))  &kp LS(LG(STAR))  &kp LS(LG(LPAR))  &kp LS(LG(RPAR))
-&trans  &trans            &trans           &trans            &trans            &trans               &trans             &trans            &trans            &trans            &trans            &trans
-                                           &trans            &trans            &trans               &trans             &trans            &trans
+        &kp LG(N1)      &kp LG(N2)      &kp LG(N3)      &kp LG(N4)      &kp LG(N5)        &kp LG(N6)      &kp LG(N7)              &kp LG(N8)        &kp LG(N9)      &kp LG(N0)
+        &trans          &trans          &trans          &trans          &trans            &trans          &kp LS(LG(LEFT_ARROW))  &kp LS(LG(DOWN))  &kp LS(LG(UP))  &kp LS(LG(RIGHT))
+&trans  &kp LS(LG(N1))  &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))    &kp LS(LG(N6))  &kp LS(LG(N7))          &kp LS(LG(N8))    &kp LS(LG(N9))  &kp LS(LG(N0))     &trans
+                                        &trans          &trans          &trans            &trans          &trans                  &trans
             >;
         };
     };

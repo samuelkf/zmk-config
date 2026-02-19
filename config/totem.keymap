@@ -119,10 +119,10 @@
 
         Game {
             bindings = <
-        &trans  &trans  &trans   &trans    &trans    &trans  &trans  &trans  &trans  &trans
-        &kp A   &kp S   &kp D    &kp F     &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans   &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &kp TAB  &kp LALT  &trans    &trans  &trans  &tog 0
+        &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &kp A   &kp S   &kp D             &kp F   &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &mt LEFT_ALT TAB  &trans  &trans    &trans  &trans  &tog 0
             >;
         };
     };

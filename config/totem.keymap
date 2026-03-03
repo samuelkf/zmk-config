@@ -81,10 +81,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-              &kp N1          &kp N2      &kp N3   &kp N4    &kp N5       &kp N6    &kp N7    &kp N8  &kp N9     &kp N0
-              &kp LEFT_SHIFT  &kp PG_DN   &kp END  &kp HOME  &kp PG_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&kp LEFT_ALT  &kp LEFT_GUI    &kp ESCAPE  &kp TAB  &kp BSPC  &kp DEL      &trans    &trans    &trans  &trans     &trans  &trans
-                                          &trans   &trans    &trans       &trans    &trans    &trans
+              &kp N1          &kp N2      &kp N3   &kp N4    &kp N5       &kp N6           &kp N7               &kp N8               &kp N9     &kp N0
+              &kp LEFT_SHIFT  &kp PG_DN   &kp END  &kp HOME  &kp PG_UP    &kp LEFT         &kp DOWN             &kp UP               &kp RIGHT  &trans
+&kp LEFT_ALT  &kp LEFT_GUI    &kp ESCAPE  &kp TAB  &kp BSPC  &kp DEL      &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LA(PRINTSCREEN)  &trans     &trans  &trans
+                                          &trans   &trans    &trans       &trans           &trans               &trans
             >;
         };
 
@@ -110,10 +110,10 @@
 
         Niri {
             bindings = <
-        &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp LG(LC(LEFT))    &kp LG(LC(DOWN))    &kp LG(LC(UP))  &kp LG(LC(RIGHT))  &trans
-        &trans      &trans      &trans      &trans      &trans        &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP)      &kp LG(RIGHT)      &trans
-&trans  &trans      &trans      &trans      &trans      &trans        &trans              &trans              &trans          &trans             &trans  &trans
-                                &trans      &trans      &trans        &trans              &trans              &trans
+        &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp LG(LC(LEFT))            &kp LG(LC(DOWN))            &kp LG(LC(UP))            &kp LG(LC(RIGHT))            &trans
+        &trans      &trans      &trans      &trans      &trans        &kp LG(LEFT_ARROW)          &kp LG(DOWN_ARROW)          &kp LG(UP)                &kp LG(RIGHT)                &trans
+&trans  &trans      &trans      &trans      &trans      &trans        &kp LG(LS(LC(LEFT_ARROW)))  &kp LG(LS(LC(DOWN_ARROW)))  &kp LG(LS(LC(UP_ARROW)))  &kp LG(LS(LC(RIGHT_ARROW)))  &trans  &trans
+                                &trans      &trans      &trans        &trans                      &trans                      &trans
             >;
         };
 
@@ -122,7 +122,7 @@
         &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &kp A   &kp S   &kp D             &kp F   &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &mt LEFT_ALT TAB  &trans  &trans    &trans  &trans  &tog 0
+                        &mt LEFT_ALT TAB  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };

@@ -22,6 +22,7 @@
 
 #include "keys_en_gb.h"
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define Base        0
@@ -110,10 +111,10 @@
 
         Niri {
             bindings = <
-        &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp LG(LC(LEFT))            &kp LG(LC(DOWN))            &kp LG(LC(UP))            &kp LG(LC(RIGHT))            &trans
-        &trans      &trans      &trans      &trans      &trans        &kp LG(LEFT_ARROW)          &kp LG(DOWN_ARROW)          &kp LG(UP)                &kp LG(RIGHT)                &trans
-&trans  &trans      &trans      &trans      &trans      &trans        &kp LG(LS(LC(LEFT_ARROW)))  &kp LG(LS(LC(DOWN_ARROW)))  &kp LG(LS(LC(UP_ARROW)))  &kp LG(LS(LC(RIGHT_ARROW)))  &trans  &trans
-                                &trans      &trans      &trans        &trans                      &trans                      &trans
+              &kp LG(N1)    &kp LG(N2)    &kp LG(N3)    &kp LG(N4)  &kp LG(N5)    &kp LG(LC(LEFT))            &kp LG(LC(DOWN))            &kp LG(LC(UP))            &kp LG(LC(RIGHT))            &trans
+              &trans        &trans        &trans        &trans      &trans        &kp LG(LEFT_ARROW)          &kp LG(DOWN_ARROW)          &kp LG(UP)                &kp LG(RIGHT)                &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4  &trans      &bt BT_CLR    &kp LG(LS(LC(LEFT_ARROW)))  &kp LG(LS(LC(DOWN_ARROW)))  &kp LG(LS(LC(UP_ARROW)))  &kp LG(LS(LC(RIGHT_ARROW)))  &trans  &trans
+                                          &trans        &trans      &trans        &trans                      &trans                      &trans
             >;
         };
 
